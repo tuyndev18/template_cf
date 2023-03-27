@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CF</title>
+    <link rel="stylesheet" href="../assets/css/aos.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/toastify.min.css" />
+  </head>
+
+  <body>
+    <section class="bg-main">
+      <div class="relative pt-[19.74%] h-0">
+        <div class="absolute inset-0">
+          <img
+            class="w-full h-full"
+            src="../assets/images/banner_resize.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="container pt-20 pb-40">
+        <h3 class="text-center text-[60px] mb-12 font-bold text-white">
+          TẠO ĐỘI TUYỂN CỦA BẠN
+        </h3>
+        <div class="grid grid-cols-3 gap-12">
+          <div></div>
+          <div class="grid grid-cols-2 col-span-2 text-white gap-x-6 gap-y-8">
+            <div>
+              <h3 class="pb-1 font-bold">Tên đội</h3>
+              <input
+                class="w-full p-3 text-black rounded-lg"
+                type="text"
+                placeholder="Nhập tên đội tuyển"
+              />
+            </div>
+            <div>
+              <h3 class="pb-1 font-bold">Số thành viên tối đa</h3>
+              <input
+                class="w-full p-3 text-black rounded-lg"
+                type="number"
+                max="10"
+                placeholder="Nhập số thành viên"
+              />
+            </div>
+            <div>
+              <h3 class="pb-1 font-bold">Tình trạng đội</h3>
+              <select class="w-full p-3 text-black rounded-lg">
+                <option selected value="0">Lọc theo tỉnh thành</option>
+                <option value="1">No Wrapper</option>
+                <option value="2">No JS</option>
+                <option value="3">Nice!</option>
+              </select>
+            </div>
+            <div>
+              <h3 class="pb-1 font-bold">Tỉnh thành sinh hoạt</h3>
+              <select class="w-full p-3 text-black rounded-lg">
+                <option selected value="0">Lọc theo tỉnh thành</option>
+                <option value="1">No Wrapper</option>
+                <option value="2">No JS</option>
+                <option value="3">Nice!</option>
+              </select>
+            </div>
+            <div class="col-span-2">
+              <h3 class="pb-1 font-bold">Link kênh liên lạc của đội</h3>
+              <input
+                class="w-full p-3 text-black rounded-lg"
+                type="text"
+                placeholder="https://discord.gg/"
+              />
+            </div>
+            <div class="col-span-2">
+              <h3 class="pb-1 font-bold">Mô tả</h3>
+              <textarea
+                class="w-full p-3 text-black rounded-lg"
+                placeholder="https://discord.gg/"      
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/toastify-js.js"></script>
+    <script src="../assets/js/jquery-3.6.3.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
