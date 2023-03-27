@@ -1,4 +1,49 @@
+.dropdown_navbar_menu {
+  visibility: hidden;
+  position: absolute;
+  background: #081325;
+  border-top: 2px solid white;
+  bottom: 0;
+  left: 0;
+  opacity: 0.8;
+  transition: all 0.3s ease-in-out;
+  z-index: 999;
+  transform: translateY(90%);
+}
+
+.dropdown_navbar:hover .dropdown_navbar_menu {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(100%);
+}
+
+.ranking_top_table thead tr td {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  border-bottom: 1px solid #e7251d;
+}
+
+.ranking_top_table thead tr td div,
+.ranking_top_table tbody tr > td > div:first-of-type {
+  padding: 14px;
+  text-align: center;
+}
+
+.background_footer {
+  background-image: url(../images/bg_footer.png);
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.ranking_top_table {
+  min-width: 640px;
+}
+
 @media screen and (min-width: 640px) {
+  .ranking_top_table {
+    min-width: none;
+  }
 }
 
 @media screen and (min-width: 640px) and (orientation: landscape) {

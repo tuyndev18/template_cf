@@ -14,8 +14,862 @@
 </head>
 
 <body>
-  <section>
-  </section>
+  <header class="bg-[#081325]">
+    <div class="flex justify-between w-[90%] mx-auto py-4">
+      <ul class="flex items-center font-bold text-white cursor-pointer space-x-7">
+        <li class="w-[20%]">
+          <img src="./assets/images/logo_publisher.png" alt="">
+        </li>
+        <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+          <span>ĐỘI THI ĐẤU</span>
+          <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+          <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+            <li>DANH SÁCH ĐỘI</li>
+            <li>ĐỘI CỦA TÔI</li>
+            <li>TẠO ĐỘI</li>
+            <li>QUẢN LÝ ĐỘI</li>
+          </ul>
+        </li>
+        <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+          <span>GIẢI ĐẤU</span>
+          <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+          <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+            <li>DANH SÁCH GIẢI ĐẤU</li>
+            <li>GIẢI CỦA TÔI</li>
+            <li>TẠO GIẢI</li>
+          </ul>
+        </li>
+        <li class="py-3">THÀNH VIÊN</li>
+        <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+          <span>BẢNG XẾP HẠNG</span>
+          <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+          <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+            <li>BXH ĐỘI TUYỂN</li>
+            <li>BXH TUYỂN THỦ</li>
+            <li>BXH TỔNG</li>
+          </ul>
+        </li>
+        <li class="py-3">MEDIA</li>
+      </ul>
+      <div class="flex items-center space-x-5">
+        <h3 class="font-bold text-white">TK: Xxx001</h3>
+        <img src="./assets/images/icons/icon_notification.png" alt="">
+      </div>
+    </div>
+  </header>
+  <main class="bg-main">
+    <div class="container">
+      <!-- sports tournament list   -->
+      <section class="pt-6 space-y-10 xl:space-y-20">
+        <div>
+          <div class="flex justify-between mb-4">
+            <div class="flex items-center space-x-2 text-sm font-bold">
+              <img src="./assets/images/cup_upcoming.png" alt="">
+              <h3 class="text-blue-300">Sắp diễn ra</h3>
+              <h3 class="text-white">Giải đấu</h3>
+            </div>
+            <div class="flex items-center space-x-1 font-bold text-blue-300">
+              <h3>Xem tất cả</h3>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex w-full grid-cols-2 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between mb-4">
+            <div class="flex items-center space-x-2 text-sm font-bold">
+              <img src="./assets/images/cup_running.png" alt="">
+              <h3 class="text-orange-600">Đang diễn ra</h3>
+              <h3 class="text-white">Giải đấu</h3>
+            </div>
+            <div class="flex items-center space-x-1 font-bold text-orange-600">
+              <h3>Xem tất cả</h3>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex w-full grid-cols-2 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="flex justify-between mb-4">
+            <div class="flex items-center space-x-2 text-sm font-bold">
+              <img src="./assets/images/cup_closed.png" alt="">
+              <h3 class="text-green-200">Đã kết thúc</h3>
+              <h3 class="text-white">Giải đấu</h3>
+            </div>
+            <div class="flex items-center space-x-1 font-bold text-green-200">
+              <h3>Xem tất cả</h3>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-5 h-5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </div>
+          </div>
+          <div
+            class="flex w-full grid-cols-2 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+            <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
+              <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
+                <div class="absolute inset-0 bg-[#454D60]">
+                </div>
+              </div>
+              <div class="flex items-center mb-6 space-x-4">
+                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg">
+                </div>
+                <div>
+                  <h3 class="text-gray-400 text-[20px] font-bold mb-2">CF 001 TOURNAMENT SHADY CUP</h3>
+                  <div class="flex space-x-2">
+                    <div class="flex-shrink-0 w-3 h-3 bg-white rounded-full">
+                    </div>
+                    <h3 class="text-sm font-bold leading-none text-white">Thời gian diễn ra từ 20h00 ngày 5.3 đến 22h00
+                      ngày
+                      27.3</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="grid grid-cols-3 mb-5">
+                <div
+                  class="flex flex-col items-center p-3 bg-gray-600 rounded-[3px] font-bold shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Chế độ chơi</h2>
+                  </div>
+                  <h3 class="text-green-300">Đặt bom</h3>
+                </div>
+                <div
+                  class="flex flex-col items-center p-2 font-bold bg-gray-600 rounded-[3px] scale-[1.2] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Giải thưởng (VNĐ)</h2>
+                  </div>
+                  <h3 class="text-orange-400 ">10.000.000</h3>
+                </div>
+                <div
+                  class="flex flex-col font-bold items-center p-3 bg-gray-600 rounded-[3px] shadow-[0px_0px_10px_rgba(0,0,0,0.4)] text-center">
+                  <div>
+                    <h2 class="mb-1 text-sm text-gray-400">Hình thức</h2>
+                  </div>
+                  <h3 class="text-green-300">Online</h3>
+                </div>
+              </div>
+              <div class="h-[1px] bg-orange-500 w-[90%] mx-auto"></div>
+              <div class="mt-4 flex justify-end space-x-2 items-center text-[14px] font-bold text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="w-6 h-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M18 18.72a9.094 9.094 0 003.741-.479 3 3 0 00-4.682-2.72m.94 3.198l.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0112 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 016 18.719m12 0a5.971 5.971 0 00-.941-3.197m0 0A5.995 5.995 0 0012 12.75a5.995 5.995 0 00-5.058 2.772m0 0a3 3 0 00-4.681 2.72 8.986 8.986 0 003.74.477m.94-3.197a5.971 5.971 0 00-.94 3.197M15 6.75a3 3 0 11-6 0 3 3 0 016 0zm6 3a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0zm-13.5 0a2.25 2.25 0 11-4.5 0 2.25 2.25 0 014.5 0z" />
+                </svg>
+
+                <h3 class="text-orange-400">19/24</h3>
+                <h3>Đội tham dự</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- heading rank -->
+      <div class="w-[90%] md:w-[52%] mx-auto py-8 xl:py-20">
+        <img class="w-full" src="./assets/images/heading_rank.png" alt="">
+      </div>
+      <!-- top rank player pro and team -->
+      <div class="grid grid-cols-1 gap-5 pb-12 xl:pb-20 xl:gap-12 xl:grid-cols-2">
+        <div>
+          <h3 class="py-2 text-center text-white w-[88%] mx-auto bg-blue-400 text-[20px] sm:text-[46px] font-bold translate-y-[35%]">
+            Top tuyển thủ
+          </h3>
+          <div class="rounded-[5px] px-5 py-[8%] bg-gray-500 overflow-x-auto">
+            <table class="w-full ranking_top_table">
+              <thead>
+                <tr>
+                  <td>
+                    <div>Hạng</div>
+                  </td>
+                  <td>
+                    <div>Tên tuyển thủ</div>
+                  </td>
+                  <td>
+                    <div>Số trận thắng</div>
+                  </td>
+                  <td>
+                    <div>Số giải tham dự</div>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="flex justify-center">
+                      <img src="./assets/images/medal_gold.png" alt="">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="flex space-x-2 font-bold text-[12px]">
+                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <div class="flex items-center space-x-2">
+                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+
+                            </div>
+                            <h3 class="text-white">VietNam</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p class="font-bold text-orange-700">000.000.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p>x</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="flex justify-center">
+                      <img src="./assets/images/medal_siliver.png" alt="">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="flex space-x-2 font-bold text-[12px]">
+                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <div class="flex items-center space-x-2">
+                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+
+                            </div>
+                            <h3 class="text-white">VietNam</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p class="font-bold text-yellow-500">000.000.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p>x</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="flex justify-center">
+                      <img src="./assets/images/medal_bronze.png" alt="">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="flex space-x-2 font-bold text-[12px]">
+                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <div class="flex items-center space-x-2">
+                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+
+                            </div>
+                            <h3 class="text-white">VietNam</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p class="font-bold text-blue-500">000.000.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p>x</p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div>
+          <h3 class="py-2 text-center text-white w-[88%] mx-auto bg-blue-400 text-[20px] sm:text-[46px] font-bold translate-y-[35%]">
+            Top đội tuyển
+          </h3>
+          <div class="rounded-[5px] px-5 py-[8%] bg-gray-500 overflow-x-auto">
+            <table class="w-full ranking_top_table">
+              <thead>
+                <tr>
+                  <td>
+                    <div>Hạng</div>
+                  </td>
+                  <td>
+                    <div>Tên tuyển thủ</div>
+                  </td>
+                  <td>
+                    <div>Số trận thắng</div>
+                  </td>
+                  <td>
+                    <div>Số giải tham dự</div>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="flex justify-center">
+                      <img src="./assets/images/medal_gold.png" alt="">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="flex space-x-2 font-bold text-[12px]">
+                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <div class="flex items-center space-x-2">
+                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+
+                            </div>
+                            <h3 class="text-white">VietNam</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p class="font-bold text-orange-700">000.000.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p>x</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="flex justify-center">
+                      <img src="./assets/images/medal_siliver.png" alt="">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="flex space-x-2 font-bold text-[12px]">
+                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <div class="flex items-center space-x-2">
+                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+
+                            </div>
+                            <h3 class="text-white">VietNam</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p class="font-bold text-yellow-500">000.000.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p>x</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="flex justify-center">
+                      <img src="./assets/images/medal_bronze.png" alt="">
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <div class="flex space-x-2 font-bold text-[12px]">
+                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <div class="flex items-center space-x-2">
+                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+
+                            </div>
+                            <h3 class="text-white">VietNam</h3>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p class="font-bold text-blue-500">000.000.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div>
+                      <p>x</p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="pt-[40%] sm:pt-[19%] h-0 relative">
+    <div class="absolute inset-0 bg-top sm:bg-center background_footer">
+    </div>
+  </footer>
   <script src="./assets/js/aos.js"></script>
   <script src="./assets/js/toastify-js.js"></script>
   <script src="./assets/js/jquery-3.6.3.min.js"></script>
