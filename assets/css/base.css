@@ -1,20 +1,49 @@
 .dropdown_navbar_menu {
+  left: 0;
+  bottom: 0;
+  opacity: 0.8;
+  z-index: 999;
   visibility: hidden;
   position: absolute;
   background: #081325;
-  border-top: 2px solid white;
-  bottom: 0;
-  left: 0;
-  opacity: 0.8;
-  transition: all 0.3s ease-in-out;
-  z-index: 999;
   transform: translateY(90%);
+  border-top: 2px solid white;
+  transition: all 0.3s ease-in-out;
 }
 
+.ranking_top_table {
+  min-width: 640px;
+}
 .dropdown_navbar:hover .dropdown_navbar_menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(100%);
+}
+
+.box_card_item .box_card_action {
+  z-index: 20;
+  opacity: 0.7;
+  visibility: hidden;
+  position: absolute;
+  transform: translateY(100%);
+  transition: all 0.3s ease-in-out;
+}
+.box_card_item .box_card_mask {
+  inset: 0;
+  z-index: 10;
+  opacity: 0.7;
+  position: absolute;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(255, 255, 255, 0.6);
+}
+.box_card_item:hover .box_card_mask,
+.box_card_item:hover .box_card_action {
   visibility: visible;
   opacity: 1;
-  transform: translateY(100%);
+}
+.box_card_item:hover .box_card_action {
+  transform: translateY(0);
 }
 
 .ranking_top_table thead tr td {
@@ -34,10 +63,6 @@
   background-image: url(../images/bg_footer.png);
   background-size: cover;
   background-repeat: repeat;
-}
-
-.ranking_top_table {
-  min-width: 640px;
 }
 
 @media screen and (min-width: 640px) {

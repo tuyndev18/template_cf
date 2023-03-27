@@ -23,6 +23,7 @@ module.exports = {
         },
         yellow: {
           500: "#FAA514",
+          600: "#FFA800"
         },
         gray: {
           300: "#6B798B",
