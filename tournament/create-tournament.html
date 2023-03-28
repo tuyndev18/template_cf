@@ -21,19 +21,21 @@
       </div>
     </div>
     <div class="container py-10 lg:pt-20 lg:pb-40">
-      <h3 class="text-center text-[40px] md:text-[60px] xl:text-[90px] mb-12 font-bold text-white">
-        SỬA THÔNG TIN ĐỘI TUYỂN
+      <h3 class="text-center text-[40px] md:text-[60px] mb-12 font-bold text-white">
+        TẠO GIẢI ĐẤU
       </h3>
       <div class="grid gap-y-8 md:gap-8 md:grid-cols-3 xl:gap-16">
         <div class="font-bold text-center text-white">
-          <h1 class="mb-6">Tải lên ảnh Logo của đội tuyển</h1>
+          <h1 class="mb-6">Tải lên ảnh Logo giản/Banner giải</h1>
           <div class="mb-6 bg-gray-600 rounded-lg py-28">
+            <input type="file" name="" id="" class="mb-8">
             <input type="file" name="" id="">
           </div>
+          
           <h1 class="mb-10">Vui lòng tải ảnh có kích thước tối thiểu 90Kb rõ nét.
             Nghiêm cấm hình ảnh vi phạm thuần phong mỹ tục,
             khỏa thân, khiêu dâm.</h1>
-          <h1 class="mb-6">Thông tin đội trưởng</h1>
+          <h1 class="mb-6">Thông tin người chơi</h1>
           <div class="flex flex-col py-10 space-y-4 bg-gray-600 rounded-lg">
             <span>Nick Name: XXX.xxx</span>
             <span>Cấp độ: 99</span>
@@ -43,12 +45,17 @@
         <div class="text-white md:col-span-2">
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2">
             <div>
-              <h3 class="pb-1 font-bold">Tên đội</h3>
-              <input class="w-full p-3 text-black rounded-lg" type="text" placeholder="Nhập tên đội tuyển" />
+              <h3 class="pb-1 font-bold">Tên giải đấu</h3>
+              <input class="w-full p-3 text-black rounded-lg" type="text" placeholder="Nhập tên giải đấu" />
             </div>
             <div>
-              <h3 class="pb-1 font-bold">Số thành viên tối đa</h3>
-              <input class="w-full p-3 text-black rounded-lg" type="number" max="10" placeholder="Nhập số thành viên" />
+              <h3 class="pb-1 font-bold">Tỉnh thành tổ chức</h3>
+              <select class="w-full p-3 text-black rounded-lg">
+                <option selected value="0">Lọc theo tỉnh thành</option>
+                <option value="1">No Wrapper</option>
+                <option value="2">No JS</option>
+                <option value="3">Nice!</option>
+              </select>
             </div>
             <div>
               <h3 class="pb-1 font-bold">Tình trạng đội</h3>
@@ -69,7 +76,7 @@
               </select>
             </div>
             <div class="sm:col-span-2">
-              <h3 class="pb-1 font-bold">Link kênh liên lạc của đội</h3>
+              <h3 class="pb-1 font-bold">Link kênh liên lạc của giải dấu</h3>
               <input class="w-full p-3 text-black rounded-lg" type="text" placeholder="https://discord.gg/" />
             </div>
             <div class="sm:col-span-2">
