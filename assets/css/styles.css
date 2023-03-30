@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.0 | MIT License | https://tailwindcss.com
+! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -31,7 +31,6 @@
 3. Use a more readable tab size.
 4. Use the user's configured `sans` font-family by default.
 5. Use the user's configured `sans` font-feature-settings by default.
-6. Use the user's configured `sans` font-variation-settings by default.
 */
 
 html {
@@ -48,8 +47,6 @@ html {
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
-  font-variation-settings: normal;
-  /* 6 */
 }
 
 /*
@@ -581,7 +578,10 @@ video {
 }
 
 .inset-0 {
-  inset: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .bottom-0 {
@@ -719,6 +719,10 @@ video {
   display: grid;
 }
 
+.aspect-\[302\/17\#1882FF0\] {
+  aspect-ratio: 302/17#1882FF0;
+}
+
 .aspect-\[302\/170\] {
   aspect-ratio: 302/170;
 }
@@ -837,10 +841,6 @@ video {
 
 .w-\[57px\] {
   width: 57px;
-}
-
-.w-\[75\%\] {
-  width: 75%;
 }
 
 .w-\[80\%\] {
@@ -1079,10 +1079,6 @@ video {
   overflow-x: auto;
 }
 
-.overflow-x-scroll {
-  overflow-x: scroll;
-}
-
 .rounded-\[10px\] {
   border-radius: 10px;
 }
@@ -1183,6 +1179,11 @@ video {
 .bg-blue-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 126 236 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 130 255 / var(--tw-bg-opacity));
 }
 
 .bg-blue-600 {
@@ -1535,11 +1536,6 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-.hover\:bg-\[\#1882FF\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(24 130 255 / var(--tw-bg-opacity));
-}
-
 .hover\:underline:hover {
   text-decoration-line: underline;
 }
@@ -1656,10 +1652,6 @@ video {
     width: 52%;
   }
 
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .md\:w-full {
     width: 100%;
   }
@@ -1704,18 +1696,6 @@ video {
     width: 6%;
   }
 
-  .lg\:w-\[70\%\] {
-    width: 70%;
-  }
-
-  .lg\:w-\[75\%\] {
-    width: 75%;
-  }
-
-  .lg\:w-\[80\%\] {
-    width: 80%;
-  }
-
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1734,10 +1714,6 @@ video {
 
   .lg\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .lg\:text-\[90px\] {
-    font-size: 90px;
   }
 }
 
