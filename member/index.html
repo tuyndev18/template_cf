@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CF</title>
+    <link rel="stylesheet" href="../assets/css/aos.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/toastify.min.css" />
+  </head>
+
+  <body>
+    <section class="container bg-[#161D22] text-white">
+      <h3 class="text-center text-[40px] md:text-[60px] mb-12 font-bold">THÔNG TIN TUYỂN THỦ</h3>
+      <div
+        class="w-[90%] mx-auto flex flex-col md:grid md:grid-cols-3 md:gap-16 rounded-lg"
+      >
+        <div class="w-full flex flex-col justify-center items-center font-bold">
+          <p class="mb-6">Tải lên ảnh tuyển thủ</p>
+          <div
+            class="w-full mb-4 aspect-[4/3] md:aspect-square bg-gray-300 rounded-lg"
+          >
+            <input type="file" name="" id="" />
+          </div>
+          <div class="text-center">
+            <p class="mb-10">
+              Vui lòng tải ảnh có kích thước tối thiểu 90Kb rõ nét. Nghiêm cấm
+              hình ảnh vi phạm thuần phong mỹ tục, khỏa thân, khiêu dâm.
+            </p>
+          </div>
+          <p class="mb-6">Thông tin người chơi</p>
+          <div
+            class="w-full flex flex-col text-center items-center py-8 bg-gray-300 rounded-lg mb-6"
+          >
+            <span>Nick Name: XXX.xxx</span>
+            <div class="w-[50%] my-2 h-[2px] bg-[#E25F01]"></div>
+            <span>Cấp độ: 99</span>
+            <div class="w-[50%] my-2 h-[2px] bg-[#E25F01]"></div>
+            <span>Ngày tạo tài khoản: DD/MM/YYY</span>
+          </div>
+        </div>
+        <div class="w-full flex flex-col col-span-2 items-center text-white">
+          <div class="name w-full mb-4">
+            <h3 class="mb-1 font-bold">Tên Người chơi</h3>
+            <input
+              type="text"
+              placeholder="Nhập tên người chơi!"
+              class="w-full rounded-lg p-3 text-black"
+            />
+          </div>
+          <div class="w-full grid sm:grid-cols-2 gap-x-4 ">
+            <div class="birthday w-full mb-4">
+              <h3 class="mb-1 font-bold">Ngày tháng năm sinh</h3>
+              <input
+                type="date"
+                placeholder=""
+                class="w-full rounded-lg p-3 text-black"
+              />
+            </div>
+            <div class="city w-full mb-4">
+              <h3 class="mb-1 font-bold">Tỉnh thành đang sinh sống</h3>
+              <select name="" id="" class="w-full rounded-lg p-3 text-black">
+                <option value="">Nam Dinh</option>
+                <option value="">Ha Noi</option>
+                <option value="">Bac Ninh</option>
+              </select>
+            </div>
+            <div class="weapon w-full mb-4">
+              <h3 class="mb-1 font-bold">Vũ khí sở trường</h3>
+              <select name="" id="" class="w-full rounded-lg p-3 text-black">
+                <option value="">M416</option>
+                <option value="">AKM</option>
+                <option value="">AWM</option>
+              </select>
+            </div>
+            <div class="favorite-weapon w-full mb-4">
+              <h3 class="mb-1 font-bold">Vũ khí yêu thích</h3>
+              <input
+                type="text"
+                placeholder="Nhập vũ khí yêu thích!"
+                class="w-full rounded-lg p-3 text-black"
+              />
+            </div>
+          </div>
+          <div class="address w-full mb-4">
+            <h3 class="mb-1 font-bold">Địa chỉ thường trú</h3>
+            <input
+              type="text"
+              placeholder="Nhập địa chỉ thường trú!"
+              class="w-full rounded-lg p-3 text-black"
+            />
+          </div>
+
+          <div class="flex justify-center items-center mb-8">
+            <div
+              class="h-[45px] w-[45px] aspect-square bg-white rounded-lg m-4"
+            ></div>
+            <p class="font-bold">
+              Tôi cam kết rằng những thông tin tôi đã cung cấp trên biểu mẫu là
+              chính xác và đầy đủ. Tôi chịu trách nhiệm về bất kỳ sai sót hoặc
+              thông tin không chính xác nào có thể gây ra hậu quả cho bản thân
+              hoặc các bên liên quan.
+            </p>
+          </div>
+          <div
+            class="max-w-[234px] w-full bg-[#ffa800] p-3 mb-4 text-black text-center rounded-lg font-bold"
+          >
+            XÁC NHẬN
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/toastify-js.js"></script>
+    <script src="../assets/js/jquery-3.6.3.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
