@@ -909,6 +909,14 @@ video {
   width: 70%;
 }
 
+.w-\[10\%\] {
+  width: 10%;
+}
+
+.w-\[12\%\] {
+  width: 12%;
+}
+
 .min-w-\[160px\] {
   min-width: 160px;
 }
@@ -942,6 +950,10 @@ video {
   min-width: 800px;
 }
 
+.min-w-\[176px\] {
+  min-width: 176px;
+}
+
 .max-w-\[175px\] {
   max-width: 175px;
 }
@@ -956,6 +968,10 @@ video {
 
 .flex-shrink-0 {
   flex-shrink: 0;
+}
+
+.table-auto {
+  table-layout: auto;
 }
 
 .table-fixed {
@@ -1142,6 +1158,11 @@ video {
   row-gap: 15%;
 }
 
+.gap-x-\[5\%\] {
+  -moz-column-gap: 5%;
+       column-gap: 5%;
+}
+
 .space-x-1 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.25rem * var(--tw-space-x-reverse));
@@ -1286,6 +1307,11 @@ video {
 .border-slate-300 {
   --tw-border-opacity: 1;
   border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+.border-\[\#303540\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(48 53 64 / var(--tw-border-opacity));
 }
 
 .bg-\[\#081325\] {
@@ -1438,6 +1464,15 @@ video {
   background-color: rgb(117 117 117 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#0a0401\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 4 1 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
 .bg-top {
   background-position: top;
 }
@@ -1556,6 +1591,16 @@ video {
   padding-right: 0px;
 }
 
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -1598,6 +1643,14 @@ video {
 
 .pt-\[85\%\] {
   padding-top: 85%;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
+
+.pb-3 {
+  padding-bottom: 0.75rem;
 }
 
 .text-center {
@@ -1856,6 +1909,21 @@ video {
     padding-bottom: 0px;
   }
 
+  .sm\:px-0 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .sm\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+
   .sm\:pl-\[2\%\] {
     padding-left: 2%;
   }
@@ -1912,6 +1980,10 @@ video {
 
   .md\:w-\[80\%\] {
     width: 80%;
+  }
+
+  .md\:w-\[15\%\] {
+    width: 15%;
   }
 
   .md\:min-w-0 {
@@ -1992,6 +2064,10 @@ video {
 
   .lg\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .lg\:w-\[15\%\] {
+    width: 15%;
   }
 
   .lg\:grid-cols-3 {
