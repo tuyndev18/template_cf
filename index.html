@@ -15,43 +15,45 @@
 
 <body>
   <header class="bg-[#081325]">
-    <div class="flex justify-between w-[90%] mx-auto py-4">
-      <ul class="flex items-center font-bold text-white cursor-pointer space-x-7">
-        <li class="w-[20%]">
-          <img src="./assets/images/logo_publisher.png" alt="">
-        </li>
-        <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
-          <span>ĐỘI THI ĐẤU</span>
-          <img src="./assets/images/icons/icon_arrow_down.png" alt="">
-          <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
-            <li>DANH SÁCH ĐỘI</li>
-            <li>ĐỘI CỦA TÔI</li>
-            <li>TẠO ĐỘI</li>
-            <li>QUẢN LÝ ĐỘI</li>
-          </ul>
-        </li>
-        <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
-          <span>GIẢI ĐẤU</span>
-          <img src="./assets/images/icons/icon_arrow_down.png" alt="">
-          <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
-            <li>DANH SÁCH GIẢI ĐẤU</li>
-            <li>GIẢI CỦA TÔI</li>
-            <li>TẠO GIẢI</li>
-          </ul>
-        </li>
-        <li class="py-3">THÀNH VIÊN</li>
-        <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
-          <span>BẢNG XẾP HẠNG</span>
-          <img src="./assets/images/icons/icon_arrow_down.png" alt="">
-          <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
-            <li>BXH ĐỘI TUYỂN</li>
-            <li>BXH TUYỂN THỦ</li>
-            <li>BXH TỔNG</li>
-          </ul>
-        </li>
-        <li class="py-3">MEDIA</li>
-      </ul>
-      <div class="flex items-center space-x-5">
+    <div class="flex items-center justify-between w-[92%] mx-auto py-4">
+      <div class="flex items-center">
+        <div class="w-[220px] lg:w-[20%] pr-6">
+          <img class="w-full" src="./assets/images/logo_publisher.png" alt="">
+        </div>
+        <ul class="items-center hidden space-x-4 font-bold text-white cursor-pointer lg:flex">
+          <li class="relative flex items-center py-3 space-x-5 dropdown_navbar">
+            <span>ĐỘI THI ĐẤU</span>
+            <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+            <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+              <li>DANH SÁCH ĐỘI</li>
+              <li>ĐỘI CỦA TÔI</li>
+              <li>TẠO ĐỘI</li>
+              <li>QUẢN LÝ ĐỘI</li>
+            </ul>
+          </li>
+          <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+            <span>GIẢI ĐẤU</span>
+            <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+            <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+              <li>DANH SÁCH GIẢI ĐẤU</li>
+              <li>GIẢI CỦA TÔI</li>
+              <li>TẠO GIẢI</li>
+            </ul>
+          </li>
+          <li class="py-3">THÀNH VIÊN</li>
+          <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+            <span>BẢNG XẾP HẠNG</span>
+            <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+            <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+              <li>BXH ĐỘI TUYỂN</li>
+              <li>BXH TUYỂN THỦ</li>
+              <li>BXH TỔNG</li>
+            </ul>
+          </li>
+          <li class="py-3">MEDIA</li>
+        </ul>
+      </div>
+      <div class="flex items-center space-x-4">
         <h3 class="font-bold text-white">TK: Xxx001</h3>
         <img src="./assets/images/icons/icon_notification.png" alt="">
       </div>
@@ -617,7 +619,7 @@
             Top tuyển thủ
           </h3>
           <div class="rounded-[5px] px-5 py-[8%] bg-gray-500 overflow-x-auto min-h-[55vh]">
-            <table class="w-full ranking_top_table min-w-[768px] md:min-w-0">
+            <table class="w-full ranking_top_table min-w-[767px] md:min-w-0">
               <thead>
                 <tr>
                   <td>
@@ -743,7 +745,7 @@
             Top đội tuyển
           </h3>
           <div class="rounded-[5px] px-5 py-[8%] bg-gray-500 overflow-x-auto min-h-[55vh]">
-            <table class="w-full ranking_top_table min-w-[768px] md:min-w-0">
+            <table class="w-full ranking_top_table min-w-[767px] md:min-w-0">
               <thead>
                 <tr>
                   <td>
