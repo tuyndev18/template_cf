@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CF</title>
+    <link rel="stylesheet" href="../assets/css/aos.css" />
+    <link rel="stylesheet" href="../assets/css/base.css" />
+    <link rel="stylesheet" href="../assets/css/styles.css" />
+    <link rel="stylesheet" href="../assets/css/animate.min.css" />
+    <link rel="stylesheet" href="../assets/css/toastify.min.css" />
+  </head>
+
+  <body>
+    <section class="text-white bg-main">
+      <div class="container">
+        <h3 class="text-center text-[40px] md:text-[60px] mb-12 font-bold">
+          THÔNG TIN THÀNH VIÊN
+        </h3>
+        <div
+          class="w-full lg:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-5 md:gap-x-10 mb-10"
+        >
+          <input
+            type="text"
+            placeholder="Tìm theo tên"
+            class="w-full p-3 text-black rounded-lg"
+          />
+          <select name="" id="" class="w-full p-3 text-black rounded-lg">
+            <option value="">Tìm theo vị trí</option>
+            <option value="">Attacker</option>
+            <option value="">Sniper</option>
+            <option value="">Tanker</option>
+            <option value="">Oder</option>
+            <option value="">Support</option>
+            <option value="">Luker</option>
+          </select>
+        </div>
+        <div class="overflow-x-scroll">
+          <table
+            class="min-w-[728px] table-fixed w-full mb-12 border-none border-separate border-spacing-y-4"
+          >
+            <thead class="bg-[#303540]">
+              <tr>
+                <th class="w-[15%] px-6 py-4">STT</th>
+                <th class="w-[25%] px-6 py-4">Họ và tên</th>
+                <th class="w-[15%] px-6 py-4">Nickname</th>
+                <th class="w-[15%] px-6 py-4">Vị trí</th>
+                <th class="w-[15%] px-6 py-4">Thao tác</th>
+                <th class="w-[15%] px-6 py-4">Trạng thái</th>
+              </tr>
+            </thead>
+            <tbody class="bg-[#303540]">
+              <tr>
+                <th class="w-[15%] px-6 py-4">0</th>
+                <th class="w-[25%] px-6 py-4">Nguyễn Anh Tú</th>
+                <th class="w-[15%] px-6 py-4">MyAcc</th>
+                <th class="w-[15%] px-6 py-4">Sniper</th>
+                <th class="w-[15%] px-0 md:px-6">
+                  <p class="bg-[#757575] py-2 rounded-[5px]">Mời</p>
+                </th>
+                <th class="w-[15%] px-6 py-4">Team XXX</th>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div
+          class="grid grid-cols-1 w-full mx-auto lg:grid-cols-2 gap-x-[15%] gap-y-10 font-bold"
+        >
+          <div
+            class="flex flex-col sm:grid sm:grid-cols-2 gap-x-7 gap-y-2 p-6 bg-[#303540]"
+          >
+            <div class="sm:row-span-4">
+              <div class="relative">
+                <img
+                  src="../assets/images/player_game.png"
+                  alt=""
+                  class="p-6"
+                />
+                <select
+                  name=""
+                  id=""
+                  class="w-full absolute bottom-0 p-3 text-black rounded-lg"
+                >
+                  <option value="">Chọn mùa giải</option>
+                  <option value="">Mùa 1</option>
+                  <option value="">Mùa 2</option>
+                  <option value="">Mùa 3</option>
+                  <option value="">Mùa 4</option>
+                </select>
+              </div>
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">
+              Player Name
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">
+              Nguyễn Anh Tú
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">
+              27/11/199x
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">Tanker</div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Tổng số trận thắng:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Số round thắng:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Điểm tấn công:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Mạng hạ gục:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Mạng bị hạ gục:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Mạng hỗ trợ:</p>
+              <p>xxx</p>
+            </div>
+          </div>
+          <div
+            class="flex flex-col sm:grid sm:grid-cols-2 gap-x-7 gap-y-2 p-6 bg-[#303540]"
+          >
+            <div class="sm:row-span-4">
+              <div class="relative">
+                <img
+                  src="../assets/images/player_game.png"
+                  alt=""
+                  class="p-6"
+                />
+                <p
+                  class="w-full absolute bottom-0 py-3 text-black text-center rounded-[5px] bg-white"
+                >
+                  Mùa giải mới nhất
+                </p>
+              </div>
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">
+              Player Name
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">
+              Nguyễn Anh Tú
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">
+              27/11/199x
+            </div>
+            <div class="flex items-center justify-end p-4 bg-[#454D60] rounded-[5px]">Tanker</div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Tổng số trận thắng:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Số round thắng:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Điểm tấn công:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Mạng hạ gục:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Mạng bị hạ gục:</p>
+              <p>xxx</p>
+            </div>
+            <div
+              class="col-span-2 flex justify-between p-4 text-end bg-[#454D60] rounded-[5px]"
+            >
+              <p>Mạng hỗ trợ:</p>
+              <p>xxx</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/toastify-js.js"></script>
+    <script src="../assets/js/jquery-3.6.3.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+  </body>
+</html>
