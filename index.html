@@ -15,7 +15,7 @@
 
 <body>
   <header class="bg-[#081325]">
-    <div class="flex items-center justify-between w-[92%] mx-auto py-4">
+    <div class="flex items-center justify-between px-4 sm:px-5 lg:px-0 lg:w-[90%] mx-auto py-4">
       <div class="flex items-center">
         <div class="w-[220px] lg:w-[20%] pr-6">
           <img class="w-full" src="./assets/images/logo_publisher.png" alt="">
@@ -25,42 +25,45 @@
             <span>ĐỘI THI ĐẤU</span>
             <img src="./assets/images/icons/icon_arrow_down.png" alt="">
             <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
-              <li>DANH SÁCH ĐỘI</li>
-              <li>ĐỘI CỦA TÔI</li>
-              <li>TẠO ĐỘI</li>
-              <li>QUẢN LÝ ĐỘI</li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">DANH SÁCH ĐỘI</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">ĐỘI CỦA TÔI</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">TẠO ĐỘI</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">QUẢN LÝ ĐỘI</a></li>
             </ul>
           </li>
           <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
-            <span>GIẢI ĐẤU</span>
+            <span >GIẢI ĐẤU</span>
             <img src="./assets/images/icons/icon_arrow_down.png" alt="">
             <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
-              <li>DANH SÁCH GIẢI ĐẤU</li>
-              <li>GIẢI CỦA TÔI</li>
-              <li>TẠO GIẢI</li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">DANH SÁCH GIẢI ĐẤU</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">GIẢI CỦA TÔI</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">TẠO GIẢI</a></li>
             </ul>
           </li>
-          <li class="py-3">THÀNH VIÊN</li>
+          <li class="py-3 transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">THÀNH VIÊN</a></li>
           <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
             <span>BẢNG XẾP HẠNG</span>
             <img src="./assets/images/icons/icon_arrow_down.png" alt="">
             <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
-              <li>BXH ĐỘI TUYỂN</li>
-              <li>BXH TUYỂN THỦ</li>
-              <li>BXH TỔNG</li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">BXH ĐỘI TUYỂN</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">BXH TUYỂN THỦ</a></li>
+              <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">BXH TỔNG</a></li>
             </ul>
           </li>
-          <li class="py-3">MEDIA</li>
+          <li class="py-3 transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">MEDIA</a></li>
         </ul>
       </div>
       <div class="flex items-center space-x-4">
-        <h3 class="font-bold text-white">TK: Xxx001</h3>
+        <h3 class="hidden font-bold text-white lg:block whitespace-nowrap">TK: Xxx001</h3>
         <img src="./assets/images/icons/icon_notification.png" alt="">
+        <div class="block w-10 cursor-pointer lg:hidden" id="menu_icon_mobile">
+          <img class="w-full" src="./assets/images/icons/icon_menu.png" alt="">
+        </div>
       </div>
     </div>
   </header>
   <main class="bg-main">
-    <div class="container">
+    <div class="container py-10 lg:pt-20 lg:pb-40">
       <!-- danh sách các giải đấu -->
       <section class="pt-6 space-y-10 xl:space-y-20">
         <div>
@@ -79,7 +82,7 @@
             </div>
           </div>
           <div
-            class="flex w-full grid-cols-2 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
+            class="flex w-full grid-cols-2 pb-4 space-x-3 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
             <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
               <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
                 <div class="absolute inset-0 bg-[#454D60]">
@@ -260,7 +263,7 @@
             </div>
           </div>
           <div
-            class="flex w-full grid-cols-2 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
+            class="flex w-full grid-cols-2 pb-4 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
             <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
               <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
                 <div class="absolute inset-0 bg-[#454D60]">
@@ -441,7 +444,7 @@
             </div>
           </div>
           <div
-            class="flex w-full grid-cols-2 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
+            class="flex w-full grid-cols-2 pb-3 space-x-4 overflow-x-auto snap-x md:space-x-0 md:gap-8 md:grid 2xl:gap-12 lg:grid-cols-3">
             <div class="rounded-[5px] bg-gray-500 p-5 snap-center w-[92%] sm:w-[60%] flex-shrink-0 md:w-full">
               <div class="relative h-0 pt-[56.25%] drop-shadow-[0px_0px_15px_rgba(0,0,0,0.8)] mb-4">
                 <div class="absolute inset-0 bg-[#454D60]">
@@ -612,7 +615,7 @@
         <img class="w-full" src="./assets/images/heading_rank.png" alt="">
       </div>
       <!-- top tuyển thủ và đội tuyển -->
-      <div class="grid grid-cols-1 gap-5 pb-12 xl:pb-20 xl:gap-12 xl:grid-cols-2">
+      <div class="grid grid-cols-1 gap-5 xl:gap-12 xl:grid-cols-2">
         <div>
           <h3
             class="py-2 text-center text-white w-[88%] mx-auto bg-blue-400 text-[20px] sm:text-[40px] font-bold translate-y-[35%]">
@@ -646,12 +649,14 @@
                   <td>
                     <div>
                       <div class="flex space-x-2 font-bold text-[12px]">
-                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div class="flex-shrink-0 w-12 h-8 bg-orange-400">
+                          <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1678026777069-138834373d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </div>
                         <div>
                           <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
                           <div class="flex items-center space-x-2">
-                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
-
+                            <div class="flex-shrink-0 w-8 h-5 bg-orange-400">
+                              <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1524849688432-5c16628fe55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
                             </div>
                             <h3 class="text-white">VietNam</h3>
                           </div>
@@ -679,12 +684,14 @@
                   <td>
                     <div>
                       <div class="flex space-x-2 font-bold text-[12px]">
-                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div class="flex-shrink-0 w-12 h-8 bg-orange-400">
+                          <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1678026777069-138834373d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </div>
                         <div>
-                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 002</h3>
                           <div class="flex items-center space-x-2">
-                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
-
+                            <div class="flex-shrink-0 w-8 h-5 bg-orange-400">
+                              <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1524849688432-5c16628fe55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
                             </div>
                             <h3 class="text-white">VietNam</h3>
                           </div>
@@ -712,11 +719,14 @@
                   <td>
                     <div>
                       <div class="flex space-x-2 font-bold text-[12px]">
-                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div class="flex-shrink-0 w-12 h-8 bg-orange-400">
+                          <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1678026777069-138834373d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </div>
                         <div>
-                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 003</h3>
                           <div class="flex items-center space-x-2">
-                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
+                            <div class="flex-shrink-0 w-8 h-5 bg-orange-400">
+                              <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1524849688432-5c16628fe55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
                             </div>
                             <h3 class="text-white">VietNam</h3>
                           </div>
@@ -775,12 +785,14 @@
                   <td>
                     <div>
                       <div class="flex space-x-2 font-bold text-[12px]">
-                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div class="flex-shrink-0 w-12 h-8 bg-orange-400">
+                          <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1678026777069-138834373d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </div>
                         <div>
                           <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
                           <div class="flex items-center space-x-2">
-                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
-
+                            <div class="flex-shrink-0 w-8 h-5 bg-orange-400">
+                              <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1524849688432-5c16628fe55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
                             </div>
                             <h3 class="text-white">VietNam</h3>
                           </div>
@@ -813,12 +825,14 @@
                   <td>
                     <div>
                       <div class="flex space-x-2 font-bold text-[12px]">
-                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div class="flex-shrink-0 w-12 h-8 bg-orange-400">
+                          <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1678026777069-138834373d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </div>
                         <div>
-                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 002</h3>
                           <div class="flex items-center space-x-2">
-                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
-
+                            <div class="flex-shrink-0 w-8 h-5 bg-orange-400">
+                              <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1524849688432-5c16628fe55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
                             </div>
                             <h3 class="text-white">VietNam</h3>
                           </div>
@@ -851,12 +865,14 @@
                   <td>
                     <div>
                       <div class="flex space-x-2 font-bold text-[12px]">
-                        <div class="flex-shrink-0 w-8 bg-orange-400 h-7"></div>
+                        <div class="flex-shrink-0 w-12 h-8 bg-orange-400">
+                          <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1678026777069-138834373d59?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" alt="">
+                        </div>
                         <div>
-                          <h3 class="mb-1 text-orange-700">Tuyển thủ 001</h3>
+                          <h3 class="mb-1 text-orange-700">Tuyển thủ 003</h3>
                           <div class="flex items-center space-x-2">
-                            <div class="flex-shrink-0 w-6 h-3 bg-orange-400">
-
+                            <div class="flex-shrink-0 w-8 h-5 bg-orange-400">
+                              <img class="object-cover w-full h-full" src="https://images.unsplash.com/photo-1524849688432-5c16628fe55e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80" alt="">
                             </div>
                             <h3 class="text-white">VietNam</h3>
                           </div>
@@ -891,6 +907,46 @@
     <div class="absolute inset-0 bg-top sm:bg-center background_footer">
     </div>
   </footer>
+    <!-- menu mobile -->
+    <menu
+    class="fixed w-[85%] bg-[rgb(0,0,0,0.9)] h-screen overflow-y-auto top-0 left-0 flex flex-col p-6 space-y-6 font-bold z-50 menu_mobile"
+    id="menu_mobile">
+    <ul class="items-center font-bold text-white cursor-pointer">
+      <li class="relative flex items-center py-3 space-x-5 dropdown_navbar">
+        <span>ĐỘI THI ĐẤU</span>
+        <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+        <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">DANH SÁCH ĐỘI</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">ĐỘI CỦA TÔI</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">TẠO ĐỘI</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">QUẢN LÝ ĐỘI</a></li>
+        </ul>
+      </li>
+      <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+        <span >GIẢI ĐẤU</span>
+        <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+        <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">DANH SÁCH GIẢI ĐẤU</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">GIẢI CỦA TÔI</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">TẠO GIẢI</a></li>
+        </ul>
+      </li>
+      <li class="py-3 transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600">THÀNH VIÊN</li>
+      <li class="relative flex items-center py-3 space-x-2 dropdown_navbar">
+        <span>BẢNG XẾP HẠNG</span>
+        <img src="./assets/images/icons/icon_arrow_down.png" alt="">
+        <ul class="p-5 min-w-[220px] space-y-2 cursor-pointer dropdown_navbar_menu">
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">BXH ĐỘI TUYỂN</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">BXH TUYỂN THỦ</a></li>
+          <li class="transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600"><a href="#">BXH TỔNG</a></li>
+        </ul>
+      </li>
+      <li class="py-3 transition-all ease-out hover:underline hover:scale-105 hover:text-yellow-600">MEDIA</li>
+    </ul>
+  </menu>
+    <!-- overlay menu mobile layer  -->
+    <div class="fixed inset-0 z-40 bg-[rgb(245,245,245,0.6)] overlay_layer cursor-pointer" id="overlay_layer">
+    </div>
   <script src="./assets/js/aos.js"></script>
   <script src="./assets/js/toastify-js.js"></script>
   <script src="./assets/js/jquery-3.6.3.min.js"></script>

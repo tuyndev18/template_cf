@@ -1,26 +1,23 @@
-// lấy chiều cao màn hình không gồm 2 thanh điều hướng bên trên và bên dưới
-const setHeight = () => {
-  const mainMobile = document.querySelector("#main_mobile");
-  if (mainMobile) {
-    document.querySelector("#main_mobile").style.height =
-      window.innerHeight + "px";
+$(document).ready(function () {
+  function destroyPopupAndOverlay() {
+    $("#menu_mobile").removeClass("menu_mobile--active");
+    $("#overlay_layer").removeClass("overlay_layer--active");
+    $("#popup_center").removeClass("popup_center--active");
   }
-};
 
-setHeight();
+  $("#menu_icon_mobile").click(function () {
+    $("#menu_mobile").toggleClass("menu_mobile--active");
+    $("#overlay_layer").toggleClass("overlay_layer--active");
+  });
 
-window.onload = function (e) {
-  setHeight();
-};
+  $(".btn_recevice_10").each(function() {
+    $(this).click(function() {
+      $("#popup_center").toggleClass("popup_center--active");
+      $("#overlay_layer").toggleClass("overlay_layer--active");
+    })
+  })
 
-// reload lại page khi xoay ngang màn hình
-window.addEventListener("orientationchange", function () {
-  var afterOrientationChange = function () {
-    window.location.reload();
-    setHeight();
-    window.removeEventListener("resize", afterOrientationChange);
-  };
-  window.addEventListener("resize", afterOrientationChange);
+  $("#overlay_layer").click(function () {
+    destroyPopupAndOverlay();
+  });
 });
-
-$(document).ready(function () {});

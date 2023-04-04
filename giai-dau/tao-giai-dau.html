@@ -17,21 +17,41 @@
   <section class="bg-main">
     <div class="relative pt-[19.74%] h-0">
       <div class="absolute inset-0">
-        <img class="w-full h-full" src="../assets/images/banner_resize.png" alt="" />
+        <img class="object-cover w-full h-full" src="../assets/images/banner_resize.png" alt="" />
       </div>
     </div>
     <div class="container py-10 lg:pt-20 lg:pb-40">
-      <h3 class="text-center text-[40px] md:text-[60px] mb-12 font-bold text-white">
+      <h3 class="text-center text-[30px] sm:text-[45px] md:text-[60px] mb-12 font-bold text-white">
         TẠO GIẢI ĐẤU
       </h3>
       <div class="grid gap-y-8 md:gap-8 md:grid-cols-3 xl:gap-16">
         <div class="font-bold text-center text-white">
           <h1 class="mb-6">Tải lên ảnh Logo giản/Banner giải</h1>
-          <div class="mb-6 bg-gray-600 rounded-lg py-28">
-            <input type="file" name="" id="" class="mb-8">
-            <input type="file" name="" id="">
+          <div class="mb-6 bg-gray-600 rounded-lg pt-[100%] relative">
+            <div class="absolute w-[65%] top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2">
+              <div class="pt-[100%] h-0 relative">
+                <div class="absolute inset-0">
+                  <img class="object-cover w-full h-full"
+                    src="https://images.unsplash.com/photo-1679343316332-6b854e892a44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+                    alt="">
+                </div>
+              </div>
+              <div>
+                <input type="file" id="uploadFile" class="hidden">
+                <label class="cursor-pointer" for="uploadFile">
+                  <div
+                    class="flex items-center justify-center space-x-2 bg-white w-[65%] sm:w-full lg:w-[65%] mx-auto text-black p-2 rounded-lg mt-3">
+                    <h3>Tải ảnh lên</h3>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                      stroke="currentColor" class="w-6 h-6">
+                      <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 16.5V9.75m0 0l3 3m-3-3l-3 3M6.75 19.5a4.5 4.5 0 01-1.41-8.775 5.25 5.25 0 0110.233-2.33 3 3 0 013.758 3.848A3.752 3.752 0 0118 19.5H6.75z" />
+                    </svg>
+                  </div>
+                </label>
+              </div>
+            </div>
           </div>
-          
           <h1 class="mb-10">Vui lòng tải ảnh có kích thước tối thiểu 90Kb rõ nét.
             Nghiêm cấm hình ảnh vi phạm thuần phong mỹ tục,
             khỏa thân, khiêu dâm.</h1>
@@ -84,9 +104,9 @@
               <textarea class="w-full p-3 text-black rounded-lg" rows="4" placeholder="https://discord.gg/"></textarea>
             </div>
             <div class="flex justify-center space-x-4 sm:col-span-2">
-              <button class="max-w-[194px] w-full text-center py-3 rounded-lg bg-yellow-500 font-bold text-black">XÁC
+              <button class="max-w-[194px] w-full text-center p-2 rounded-lg bg-yellow-500 font-bold text-black">XÁC
                 NHẬN</button>
-              <button class="max-w-[194px] w-full text-center py-3 rounded-lg bg-gray-300 font-bold text-white">HỦY
+              <button class="max-w-[194px] w-full text-center p-2 rounded-lg bg-gray-300 font-bold text-white">HỦY
                 BỎ</button>
             </div>
           </div>

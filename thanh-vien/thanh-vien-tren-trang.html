@@ -1,143 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CF</title>
-    <link rel="stylesheet" href="../assets/css/aos.css" />
-    <link rel="stylesheet" href="../assets/css/base.css" />
-    <link rel="stylesheet" href="../assets/css/styles.css" />
-    <link rel="stylesheet" href="../assets/css/animate.min.css" />
-    <link rel="stylesheet" href="../assets/css/toastify.min.css" />
-  </head>
 
-  <body>
-    <section class="text-white bg-main">
-      <div class="container">
-        <h3 class="text-center text-[40px] md:text-[60px] mb-12 font-bold">
-          THÀNH VIÊN TRÊN TRANG
-        </h3>
-        <div
-          class="w-full lg:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-5 md:gap-x-10 mb-10"
-        >
-          <input
-            type="text"
-            placeholder="Tìm theo tên"
-            class="w-full p-3 text-black rounded-lg"
-          />
-          <select name="" id="" class="w-full p-3 text-black rounded-lg">
-            <option value="">Tìm theo vị trí</option>
-            <option value="">Attacker</option>
-            <option value="">Sniper</option>
-            <option value="">Tanker</option>
-            <option value="">Oder</option>
-            <option value="">Support</option>
-            <option value="">Luker</option>
-          </select>
-        </div>
-        <div class="flex flex-col overflow-x-auto">
-          <table
-            class="min-w-[728px] table-fixed w-full border-none border-separate border-spacing-y-4"
-          >
-            <thead class="bg-[#303540]">
-              <tr>
-                <th class="w-[10%] px-6 py-4">STT</th>
-                <th class="w-[25%] px-6 py-4">Họ và tên</th>
-                <th class="w-[15%] px-6 py-4">Nickname</th>
-                <th class="w-[15%] px-6 py-4">Vị trí</th>
-                <th class="w-[15%] px-6 py-4">Thao tác</th>
-                <th class="w-[20%] px-3 md:px-6 py-4">Trạng thái</th>
-              </tr>
-            </thead>
-            <tbody class="bg-[#303540]">
-              <tr>
-                <th class="w-[10%] px-6 py-4">0</th>
-                <th class="w-[25%] px-6 py-4">Nguyễn Anh Tú</th>
-                <th class="w-[15%] px-6 py-4">MyAcc</th>
-                <th class="w-[15%] px-6 py-4">Sniper</th>
-                <th class="w-[15%] px-6 py-4">
-                  <p class="bg-[#FF5001] p-2 rounded-[5px]">XEM</p>
-                </th>
-                <th class="w-[20%] px-3 md:px-6 py-4">Team XXX</th>
-              </tr>
-              
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CF</title>
+  <link rel="stylesheet" href="../assets/css/aos.css" />
+  <link rel="stylesheet" href="../assets/css/base.css" />
+  <link rel="stylesheet" href="../assets/css/styles.css" />
+  <link rel="stylesheet" href="../assets/css/animate.min.css" />
+  <link rel="stylesheet" href="../assets/css/toastify.min.css" />
+</head>
 
-              <tr  class="bg-main">
-                <th>
-                    <p class="bg-">...</p>
-                </th>
-                <th>
-                    
-                </th>
-                <th>
-                    
-                </th>
-                <th>
-                    
-                </th>
-                <th>
-                    
-                </th>
-                <th>
-                    
-                </th>
-
-              </tr>
-              <tr>
-                <th class="w-[10%] px-6 py-4">1</th>
-                <th class="w-[25%] px-6 py-4">Nguyễn Anh Tú</th>
-                <th class="w-[15%] px-6 py-4">Player TH1</th>
-                <th class="w-[15%] px-6 py-4">Sniper</th>
-                <th class="w-[15%] px-6 py-4">
-                  <p class="bg-[#FF5001] p-2 rounded-[5px]">XEM</p>
-                </th>
-                <th class="w-[20%] px-3 md:px-6 py-4">
-                  <p class="bg-[#FF5001] p-2 rounded-[5px]">MỜI GIA NHẬP</p>
-                </th>
-              </tr>
-              <tr>
-                <th class="w-[10%] px-6 py-4">2</th>
-                <th class="w-[25%] px-6 py-4">Nguyễn Anh Tú</th>
-                <th class="w-[15%] px-6 py-4">Player TH2</th>
-                <th class="w-[15%] px-6 py-4">Sniper</th>
-                <th class="w-[15%] px-6 py-4">
-                  <p class="bg-[#FF5001] p-2 rounded-[5px]">XEM</p>
-                </th>
-                <th class="w-[20%] px-3 md:px-6 py-4">
-                  <p class="py-2 rounded-[5px]">Đã có team</p>
-                </th>
-              </tr>
-              <tr>
-                <th class="w-[10%] px-6 py-4">3</th>
-                <th class="w-[25%] px-6 py-4">Nguyễn Anh Tú</th>
-                <th class="w-[15%] px-6 py-4">Player TH3</th>
-                <th class="w-[15%] px-6 py-4">Sniper</th>
-                <th class="w-[15%] px-6 py-4">
-                  <p class="bg-[#FF5001] p-2 rounded-[5px]">XEM</p>
-                </th>
-                <th class="w-[20%] px-3 md:px-6 py-4">
-                  <p class="bg-[#A6A8A9] p-2 rounded-[5px]">MỜI GIA NHẬP</p>
-                </th>
-              </tr>
-              <tr>
-                <th class="w-[10%] px-6 py-4">4</th>
-                <th class="w-[25%] px-6 py-4">Nguyễn Anh Tú</th>
-                <th class="w-[15%] px-6 py-4">Player TH4</th>
-                <th class="w-[15%] px-6 py-4">Attacker</th>
-                <th class="w-[15%] px-6 py-4">
-                  <p class="bg-[#FF5001] p-2 rounded-[5px]">XEM</p>
-                </th>
-                <th class="w-[20%] px-3 md:px-6 py-4"></th>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+<body>
+  <section class="text-white bg-main">
+    <div class=" relative pt-[19.74%] h-0">
+      <div class="absolute inset-0">
+        <img class="object-cover w-full h-full" src="../assets/images/banner_resize.png" alt="">
       </div>
-    </section>
-    <script src="../assets/js/aos.js"></script>
-    <script src="../assets/js/toastify-js.js"></script>
-    <script src="../assets/js/jquery-3.6.3.min.js"></script>
-    <script src="../assets/js/main.js"></script>
-  </body>
+    </div>
+    <div class="container py-10 lg:pt-20 lg:pb-40">
+      <h3 class="text-center text-[25px] sm:text-[45px] md:text-[60px] mb-12 font-bold">
+        THÀNH VIÊN TRÊN TRANG
+      </h3>
+      <div class="w-full lg:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-5 md:gap-x-10 mb-10">
+        <input type="text" placeholder="Tìm theo tên" class="w-full p-3 text-black rounded-lg" />
+        <select name="" id="" class="w-full p-3 text-black rounded-lg">
+          <option value="">Tìm theo vị trí</option>
+          <option value="">Attacker</option>
+          <option value="">Sniper</option>
+          <option value="">Tanker</option>
+          <option value="">Oder</option>
+          <option value="">Support</option>
+          <option value="">Luker</option>
+        </select>
+      </div>
+      <div class="flex flex-col overflow-x-auto">
+        <table class="min-w-[728px] table-fixed w-full border-none border-separate border-spacing-y-4">
+          <thead class="bg-[#303540]">
+            <tr>
+              <th class="w-[10%] p-3">STT</th>
+              <th class="w-[25%] p-3">Họ và tên</th>
+              <th class="w-[15%] p-3">Nickname</th>
+              <th class="w-[15%] p-3">Vị trí</th>
+              <th class="w-[15%] p-3">Thao tác</th>
+              <th class="w-[20%] p-3">Trạng thái</th>
+            </tr>
+          </thead>
+          <tbody class="bg-[#303540]">
+            <tr>
+              <td class="w-[10%] p-3 text-center font-bold">0</td>
+              <td class="w-[25%] p-3 text-center font-bold">Nguyễn Anh Tú</td>
+              <td class="w-[15%] p-3 text-center font-bold">MyAcc</td>
+              <td class="w-[15%] p-3 text-center font-bold">Sniper</td>
+              <td class="w-[15%] p-3 text-center font-bold">
+                <p class="bg-[#FF5001] p-2 rounded-[5px] text-center font-bold">XEM</p>
+              </td>
+              <th class="w-[20%] p-3 text-center font-bold">Team XXX</th>
+            </tr>
+            <tr class="bg-main">
+              <td>
+                <p class="bg-">...</p>
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-[10%] p-3 text-center font-bold">1</td>
+              <td class="w-[25%] p-3 text-center font-bold">Nguyễn Anh Tú</td>
+              <td class="w-[15%] p-3 text-center font-bold">Player TH1</td>
+              <td class="w-[15%] p-3 text-center font-bold">Sniper</td>
+              <td class="w-[15%] p-3 text-center font-bold">
+                <p class="bg-[#FF5001] p-2 rounded-[5px] text-center font-bold">XEM</p>
+              </td>
+              <td class="w-[20%] p-3">
+                <p class="bg-[#FF5001] p-2 rounded-[5px] w-[90%] mx-auto text-center font-bold">MỜI GIA NHẬP</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-[10%] p-3 text-center font-bold">2</td>
+              <td class="w-[25%] p-3 text-center font-bold">Nguyễn Anh Tú</td>
+              <td class="w-[15%] p-3 text-center font-bold">Player TH2</td>
+              <td class="w-[15%] p-3 text-center font-bold">Sniper</td>
+              <td class="w-[15%] p-3 text-center font-bold">
+                <p class="bg-[#FF5001] p-2 rounded-[5px] text-center font-bold">XEM</p>
+              </td>
+              <td class="w-[20%] p-3 text-center font-bold">
+                <p class="py-2 rounded-[5px]">Đã có team</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-[10%] p-3 text-center font-bold">3</td>
+              <td class="w-[25%] p-3 text-center font-bold">Nguyễn Anh Tú</td>
+              <td class="w-[15%] p-3 text-center font-bold">Player TH3</td>
+              <td class="w-[15%] p-3 text-center font-bold">Sniper</td>
+              <td class="w-[15%] p-3 text-center font-bold">
+                <p class="bg-[#FF5001] p-2 rounded-[5px] text-center font-bold">XEM</p>
+              </td>
+              <td class="w-[20%] p-3">
+                <p class="bg-[#A6A8A9] p-2 rounded-[5px] w-[90%] mx-auto text-center font-bold">MỜI GIA NHẬP</p>
+              </td>
+            </tr>
+            <tr>
+              <td class="w-[10%] p-3 text-center font-bold">4</td>
+              <td class="w-[25%] p-3 text-center font-bold">Nguyễn Anh Tú</td>
+              <td class="w-[15%] p-3 text-center font-bold">Player TH4</td>
+              <td class="w-[15%] p-3 text-center font-bold">Attacker</td>
+              <td class="w-[15%] p-3 text-center font-bold">
+                <p class="bg-[#FF5001] p-2 rounded-[5px] text-center font-bold">XEM</p>
+              </td>
+              <td class="w-[20%] p-3"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <script src="../assets/js/aos.js"></script>
+  <script src="../assets/js/toastify-js.js"></script>
+  <script src="../assets/js/jquery-3.6.3.min.js"></script>
+  <script src="../assets/js/main.js"></script>
+</body>
+
 </html>
